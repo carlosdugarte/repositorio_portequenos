@@ -1,8 +1,8 @@
 @charset "UTF-8";
 .estiloParrafo, .parrafo, .parrafo2, .card__parrafo, .contenidoDividido__texto__parrafo, .footer__parrafo, .contenidoEntero__parrafo, .boton, .table, label, ol, ul, .nav-link, .carousel-item h5, .carousel-item p {
-  font-family: 'Merriweather', serif;
   font-size: medium;
-  color: #1a063f; }
+  color: #1a063f;
+  font-family: 'Nunito Sans', sans-serif; }
 
 .parrafo {
   letter-spacing: 1px;
