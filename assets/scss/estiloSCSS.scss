@@ -2,7 +2,7 @@
 // EXTEND para Párrafos
 .estiloParrafo{    
     // font-family: 'Merriweather', serif;
-    font-size: medium;
+    font-size: large;
     color:rgb(26, 6, 63);
     font-family: 'Nunito Sans', sans-serif;
   }
@@ -16,7 +16,7 @@
   
   .parrafo2{
     @extend .estiloParrafo;
-    font-size: small;
+    font-size: medium;
     text-align: center;
   }
   
@@ -34,8 +34,13 @@
   }
   
   .titulos2{
-    @include estiloTitulares(medium, rgb(228, 61, 0));
+    @include estiloTitulares(large, rgb(228, 61, 0));
   }
+
+  .titulos3{
+    @include estiloTitulares(large, rgb(255, 255, 255)); 
+  }
+
 
 //1. BEM Galería para las cards
 .card{        
@@ -77,7 +82,12 @@
 .footer{
 
   text-align: center;    
-  background-image: linear-gradient(to top, black,rgb(122, 122, 122));
+//   background-image: linear-gradient(to top, black,rgb(122, 122, 122));
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #343a40;
+  color: #fff;
+
 
   &__imagen{
       width: 50px;
@@ -167,6 +177,9 @@ ul{
 }
 
 /* estilo por clase y id */
+.copyright {
+    background-color:#212529;
+  }
 
 .cuerpo{
     margin:0;

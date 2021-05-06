@@ -1,6 +1,6 @@
 @charset "UTF-8";
 .estiloParrafo, .parrafo, .parrafo2, .card__parrafo, .contenidoDividido__texto__parrafo, .footer__parrafo, .contenidoEntero__parrafo, .boton, .table, label, ol, ul, .nav-link, .carousel-item h5, .carousel-item p {
-  font-size: medium;
+  font-size: large;
   color: #1a063f;
   font-family: 'Nunito Sans', sans-serif; }
 
@@ -10,7 +10,7 @@
   text-align: start; }
 
 .parrafo2 {
-  font-size: small;
+  font-size: medium;
   text-align: center; }
 
 .titulos {
@@ -21,8 +21,15 @@
   margin-top: 20px; }
 
 .titulos2 {
-  font-size: medium;
+  font-size: large;
   color: #e43d00;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  margin-top: 20px; }
+
+.titulos3 {
+  font-size: large;
+  color: white;
   font-family: 'Lato', sans-serif;
   text-align: center;
   margin-top: 20px; }
@@ -47,7 +54,10 @@
 
 .footer {
   text-align: center;
-  background-image: linear-gradient(to top, black, #7a7a7a); }
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #343a40;
+  color: #fff; }
   .footer__imagen {
     width: 50px;
     height: 50px; }
@@ -100,6 +110,9 @@ ul {
   list-style: square; }
 
 /* estilo por clase y id */
+.copyright {
+  background-color: #212529; }
+
 .cuerpo {
   margin: 0;
   background-color: #f0f0f0; }
