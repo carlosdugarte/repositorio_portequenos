@@ -7,5 +7,31 @@
   ],
   "profile": {
     "name": "typicode"
-  }
+  },
+  "productos": [
+    {
+      "codigo": 1,
+      "descripcion": "combo14",
+      "nombre": "Combo de 14 tequeños medianos",
+      "precio": "700"
+    },
+    {
+      "codigo": 2,
+      "descripcion": "combo6",
+      "nombre": "Combo de 6 tequeños medianos",
+      "precio": "600"
+    },
+    {
+      "codigo": 3,
+      "descripcion": "combo5",
+      "nombre": "Combo de 5 tequeños medianos",
+      "precio": "500"
+    },
+    {
+      "codigo": 4,
+      "descripcion": "combo4",
+      "nombre": "Combo de 4 tequeños mini",
+      "precio": "1000"
+    }
+  ]
 }
