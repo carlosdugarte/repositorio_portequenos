@@ -32,6 +32,30 @@
       "descripcion": "combo4",
       "nombre": "Combo de 4 tequeños mini",
       "precio": 1000
+    },
+    {
+      "codigo": 5,
+      "descripcion": "combo5",
+      "nombre": "Arepa Reina pepiada",
+      "precio": 1000
+    },
+    {
+      "codigo": 6,
+      "descripcion": "combo6",
+      "nombre": "Arepa Pelua",
+      "precio": 1000
+    },
+    {
+      "codigo": 7,
+      "descripcion": "combo7",
+      "nombre": "Arepa dominó",
+      "precio": 1000
+    },
+    {
+      "codigo": 8,
+      "descripcion": "combo8",
+      "nombre": "Arepa de pabellón",
+      "precio": 1000
     }
   ]
 }
